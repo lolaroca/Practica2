@@ -6,11 +6,18 @@
 </head>
 <body>
 
-<hr />
+<hr /> <!-- Ahora vamos a hacer el formulario superior -->
 
 <form action="/login" method="post">
-	<input type="text" name="user">
-	<input type="password" name="password">
+	<label for="user">Usario:</label>
+	<input type="text" id="user" name="user">
+	<label for="pass">Contraseña:</label>
+	<input type="password" id="pass" name="password">
+	<label for="sex">Sexo: </label>
+	<select name="select">
+		<option value="m">Masculino</option>
+		<option value="f">Femenino</option>
+	</select>
 	<button type="submit">Login</button>
 </form>
 
