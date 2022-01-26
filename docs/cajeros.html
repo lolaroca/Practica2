@@ -14,35 +14,19 @@
 <h3>ENCONTRAR SUCURSALES</h3>
 <form action="/login" method="post">
 	<label for="pais">País:</label>
-	<input type="text" id="pais" name="pais"> <br>
+	<input type="text" id="pais" name="pais"> <br><br>
     <label for="com">Comunidad Autonoma:</label>
-	<input type="text" id="com" name="com"> <br>
+	<input type="text" id="com" name="com"> <br><br>
 	<label for="ciudad">Ciudad:</label>
-	<input type="text" id="ciudad" name="ciudad"> <br>
-	<label for="op">Sucursal actual: </label>
+	<input type="text" id="ciudad" name="ciudad"> <br><br>
+	<label for="opciones">Opciones: </label>
 	<select name="select">
-		<option value="1">Madrid - Plaza de España</option>
-		<option value="2">Madrid - Alberto Aguilera</option>
-        <option value="3">Madrid - Paseo de Recoletos</option>
-        <option value="4">Madrid - Principe Pio</option>
-        <option value="5">Madrid - Colón</option>
-        <option value="6">Otra</option>
-	</select> <br>
-    <label for="otra">Si ha escogido otra:</label> 
-	<input type="text" id="otra" name="otra"> <br>
-    <label for="op1">Sucursal a cambiarse: </label>
-	<select name="select">
-		<option value="1">Madrid - Plaza de España</option>
-		<option value="2">Madrid - Alberto Aguilera</option>
-        <option value="3">Madrid - Paseo de Recoletos</option>
-        <option value="4">Madrid - Principe Pio</option>
-        <option value="5">Madrid - Colón</option>
-        <option value="6">Otra</option>
-	</select> <br>
-    <label for="otra1">Si ha escogido otra:</label>
-	<input type="text" id="otra1" name="otra1"> <br>
-
-	<button type="submit">Enviar</button>
+		<option value="1">Encontrar sucursal más cercana</option>
+		<option value="2">Encontrar cajero más cercano</option>
+        <option value="3">Todos las sucursales</option>
+        <option value="4">Sucursal principal</option>
+	</select> <br><br>
+	<button type="submit">Buscar</button>
 </form>
 
 
